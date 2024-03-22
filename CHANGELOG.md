@@ -1,5 +1,56 @@
 # Changelog
 
+## 0.1.0 (2024-03-22)
+
+
+### ⚠ BREAKING CHANGES
+
+* removing tp module
+* refactor scps module to org module
+* generating release
+
+### Features
+
+* Adding azuread module ([9489816](https://github.com/CyberViking949/aws-modules/commit/9489816e261dcb5a65a95a51ba6ad75f0362f8b0))
+* adding delegated_admin capabilities ([91c0c3a](https://github.com/CyberViking949/aws-modules/commit/91c0c3abf60925bfa092095f6788a638adc9c23e))
+* adding global operator ([5c92610](https://github.com/CyberViking949/aws-modules/commit/5c9261065146de4d07d0ef2a97a97a58cfd74db5))
+* adding global selector for assignments ([643158e](https://github.com/CyberViking949/aws-modules/commit/643158e73681caaf6c4f1d4221ee1b7737a70d43))
+* Adding IAM module and tags ([0fadbe8](https://github.com/CyberViking949/aws-modules/commit/0fadbe8007c2eb52b396360bdd61cde7b4aae611))
+* adding in cloud provider ([0f6f118](https://github.com/CyberViking949/aws-modules/commit/0f6f11814565a8e25cd850933deb51c07ce66968))
+* adding ipam module ([3bee9a6](https://github.com/CyberViking949/aws-modules/commit/3bee9a67b7c9c3d29b27819a246d9b929fec22d8))
+* adding k8s access policy as a attribute bool ([6f4b132](https://github.com/CyberViking949/aws-modules/commit/6f4b1324599565456bb8e9868e53f39470a39c75))
+* Adding RAM to org ([776500b](https://github.com/CyberViking949/aws-modules/commit/776500bed0922c6084f687d52cd1730efab14f15))
+* adding sso module for jumpcloud idp ([7c9a957](https://github.com/CyberViking949/aws-modules/commit/7c9a957da4c5b6df5aa9e9a9745ade3cfbabc65a))
+* adding tagging policy module ([7650da5](https://github.com/CyberViking949/aws-modules/commit/7650da574df57ca419e0c10af0238ab00dedf11e))
+* adding updates ([7ca7783](https://github.com/CyberViking949/aws-modules/commit/7ca778327f3c4f3e9f56935abd7fa0148b4a1951))
+* Delete aws-scp/providers.tf ([cffbbbc](https://github.com/CyberViking949/aws-modules/commit/cffbbbc14f277d2eee0e2286dcdaedba1aa37c33))
+* Delete aws-sso/providers.tf ([098ad4a](https://github.com/CyberViking949/aws-modules/commit/098ad4a9395c465ca82cdafe5d721f6721fb3f0d))
+* fixing admingroup assignment ([61c9fd0](https://github.com/CyberViking949/aws-modules/commit/61c9fd030d635fc397bdcbe8f48ee769c13bb691))
+* fixing naming conventions ([59c82ff](https://github.com/CyberViking949/aws-modules/commit/59c82ff60dd0ebdd57d5101c792bed659f3ffaf3))
+* fixing sso ([7b3fa55](https://github.com/CyberViking949/aws-modules/commit/7b3fa5588dfc3a2c689dc1ee1e7c11b9b9c5ba38))
+* generating release ([5bd635b](https://github.com/CyberViking949/aws-modules/commit/5bd635b9084a037da439f1e9cb8094b915fea32f))
+* making arns dynamicly added ([8a07eb0](https://github.com/CyberViking949/aws-modules/commit/8a07eb08e004c9a9d550fe9ef5d933bb013d4544))
+* moving scps to json, adding validation ([f82db38](https://github.com/CyberViking949/aws-modules/commit/f82db3865f6b6172d84077651cb755073cc44f74))
+* moving tags to downstream ([5768f98](https://github.com/CyberViking949/aws-modules/commit/5768f9892dd337409c7e9937731bb2a95e333073))
+* refactor scps module to org module ([b83e04b](https://github.com/CyberViking949/aws-modules/commit/b83e04bc57ab60e420f8152dba7d20e84df4375d))
+* removing tp module ([d4161d4](https://github.com/CyberViking949/aws-modules/commit/d4161d4ed247b1ace032cd461a2f4642692b92b5))
+* Updating aws-sso-aad ([04b76bf](https://github.com/CyberViking949/aws-modules/commit/04b76bfc4d65d275c49983fd64e17185abb9b62e))
+* updating configs ([5bc7f2b](https://github.com/CyberViking949/aws-modules/commit/5bc7f2b0028e00475d79af3cf98bc57eb9742479))
+
+
+### Bug Fixes
+
+* fixing dependancies ([c0c5be7](https://github.com/CyberViking949/aws-modules/commit/c0c5be76974aa097cbf6e366eb6240cdc27cf857))
+* fixing idstore dependancy ([ca0990d](https://github.com/CyberViking949/aws-modules/commit/ca0990dae5e0d0ca6fecd1d9af57d0e3791cb932))
+* policy_attachment ([3e55842](https://github.com/CyberViking949/aws-modules/commit/3e55842a30903f0e62646524b22aa66e8f34cbeb))
+* remove cloudwatch service principal ([c7b36e6](https://github.com/CyberViking949/aws-modules/commit/c7b36e6ed3e6b72c5643619a457c2b0b8bbc9ee9))
+* removing broken output ([5a71982](https://github.com/CyberViking949/aws-modules/commit/5a719824d5cf02679ae2fb1c4ea0d12632ebc0f3))
+* removing pipeline and adding provider data ([779761b](https://github.com/CyberViking949/aws-modules/commit/779761b4cb0dc0e3f9b8e04d876645454c5a853a))
+* removing stacksets ([ae1bc04](https://github.com/CyberViking949/aws-modules/commit/ae1bc04803ae40e2c90f3fa3f001005097077950))
+* removing tf cloud configs from module ([eaafc05](https://github.com/CyberViking949/aws-modules/commit/eaafc05c06dc491014767c46b2962ac6656b71b4))
+* updating aad module ([3381275](https://github.com/CyberViking949/aws-modules/commit/338127546b0fb5133fc77c601c70026b37d2d73a))
+* updating tags ([2ff746c](https://github.com/CyberViking949/aws-modules/commit/2ff746c18381e626c50a91b86fdbe6b4d96a7a26))
+
 ## [2.7.1](https://github.com/Gravitas-Security/aws-modules/compare/v2.7.0...v2.7.1) (2023-11-07)
 
 
